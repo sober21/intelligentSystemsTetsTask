@@ -97,7 +97,7 @@ class Client:
                          f"{time_send};\n"
                          f"{message};\n"
                          f"{time_received};\n"
-                         f"{response}.\n\n")
+                         f"{response};\n\n")
 
     async def main(self):
         reader, writer = await asyncio.open_connection('127.0.0.1', 8000)

@@ -61,7 +61,7 @@ class EchoServerProtocol(asyncio.Protocol):
                      f"{time_of_receipt_of_request};\n"
                      f"{message};\n"
                      f"{time_of_receipt_of_answer};\n"
-                     f"{response_message.strip()}.\n\n")
+                     f"{response_message.strip()};\n\n")
 
     @classmethod
     def set_client_id(cls):
